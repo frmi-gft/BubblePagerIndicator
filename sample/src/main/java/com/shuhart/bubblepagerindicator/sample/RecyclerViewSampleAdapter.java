@@ -1,8 +1,8 @@
 package com.shuhart.bubblepagerindicator.sample;
 
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewPager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.ViewPager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +11,6 @@ import com.shuhart.bubblepagerindicator.BubblePageIndicator;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.PropertyResourceBundle;
 
 public class RecyclerViewSampleAdapter extends RecyclerView.Adapter<RecyclerViewSampleAdapter.RecyclerViewIndicatorHolder> implements OnPositionChangeListener {
     private static final int ITEMS_SIZE = 20;
